@@ -4,7 +4,7 @@ from datetime import timedelta
 from django.db import models
 from django.utils import timezone
 
-LIMITE_OFFLINE_SEGUNDOS = 180  # 3 minutos sem leitura = Offline
+LIMITE_OFFLINE_SEGUNDOS = 6000
 
 
 def gerar_token():
